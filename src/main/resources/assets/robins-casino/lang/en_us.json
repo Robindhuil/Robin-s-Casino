@@ -6,6 +6,8 @@
 
 
   "block.robins-casino.chip_10_block": "Block of 10€ Chips",
-  "block.robins-casino.chip_20_block": "Block of 20€ Chips"
+  "block.robins-casino.chip_20_block": "Block of 20€ Chips",
+
+  "itemgroup.robins_casino.robins_casino_group": "Robins Casino Content"
 
 }

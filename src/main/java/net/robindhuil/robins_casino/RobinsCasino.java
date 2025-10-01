@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.robindhuil.robins_casino.blocks.ModBlocks;
 import net.robindhuil.robins_casino.item.ModItems;
+import net.robindhuil.robins_casino.item.ModItemsGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +14,8 @@ public class RobinsCasino implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemsGroup.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
