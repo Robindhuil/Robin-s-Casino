@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.robindhuil.robins_casino.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

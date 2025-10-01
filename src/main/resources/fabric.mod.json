@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "robins-casino",
+	"version": "${version}",
+	"name": "Robin's Casino",
+	"description": "Welcome to Robin's Casino!",
+	"authors": [
+		"Robindhuil"
+	],
+	"contact": {
+		"homepage": "https://github.com/Robindhuil",
+		"sources": "https://github.com/Robindhuil/MC-mod---Robin-s-Casino"
+	},
+	"license": "MIT",
+	"icon": "assets/robins-casino/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.robindhuil.robins_casino.RobinsCasino"
+		],
+		"fabric-datagen": [
+			"net.robindhuil.robins_casino.RobinsCasinoDataGenerator"
+		],
+		"client": [
+			"net.robindhuil.robins_casino.RobinsCasinoClient"
+		]
+	},
+	"mixins": [
+		"robins-casino.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.9",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
