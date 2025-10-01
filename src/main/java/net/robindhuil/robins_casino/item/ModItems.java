@@ -12,11 +12,13 @@ import net.robindhuil.robins_casino.RobinsCasino;
 
 public class ModItems {
 
-    public static final Item CHIP10=registerItem("chip_10",new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobinsCasino.MOD_ID,"chip_10")))));
-    public static final Item CHIP20=registerItem("chip_20",new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobinsCasino.MOD_ID,"chip_20")))));
+    public static final Item CHIP10=registerItem("chip_10",new Item.Settings());
+    public static final Item CHIP20=registerItem("chip_20",new Item.Settings());
 
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(RobinsCasino.MOD_ID, name), item);
+    private static Item registerItem(String name, Item.Settings itemSettings) {
+        RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobinsCasino.MOD_ID, name));
+        Item item = new Item(itemSettings.registryKey(key));
+        return Registry.register(Registries.ITEM, key, item);
     }
 
     public static void registerModItems() {
