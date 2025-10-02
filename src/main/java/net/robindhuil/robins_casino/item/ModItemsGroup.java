@@ -17,8 +17,10 @@ public class ModItemsGroup {
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.CHIP10);
                 entries.add(ModItems.CHIP20);
+                entries.add(ModItems.RED_DIAMOND);
                 entries.add(ModBlocks.CHIP_10_BLOCK);
                 entries.add(ModBlocks.CHIP_20_BLOCK);
+                entries.add(ModBlocks.RED_DIAMOND_ORE);
             }).build());
 
 

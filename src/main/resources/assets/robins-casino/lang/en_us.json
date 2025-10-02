@@ -3,10 +3,14 @@
   "item.robins-casino.chip_10_block": "Block of 10€ Chips",
   "item.robins-casino.chip_20": "20€ Chip",
   "item.robins-casino.chip_20_block": "Block of 20€ Chips",
+  "item.robins-casino.red_diamond_ore": "Red Diamond ore",
+  "item.robins-casino.red_diamond": "Red Diamond",
+
 
 
   "block.robins-casino.chip_10_block": "Block of 10€ Chips",
   "block.robins-casino.chip_20_block": "Block of 20€ Chips",
+  "block.robins-casino.red_diamond_ore": "Red Diamond Ore",
 
   "itemgroup.robins_casino.robins_casino_group": "Robins Casino Content"
 
