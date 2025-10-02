@@ -19,11 +19,11 @@ import net.robindhuil.robins_casino.RobinsCasino;
 public class ModBlocks {
 
     public static final Block CHIP_10_BLOCK = registerBlock("chip_10_block",
-            AbstractBlock.Settings.create().strength(4f).requires().sounds(BlockSoundGroup.STONE));
+            AbstractBlock.Settings.create().strength(0.5f).requires().sounds(BlockSoundGroup.STONE));
     public static final Block CHIP_20_BLOCK = registerBlock("chip_20_block",
-            AbstractBlock.Settings.create().strength(4f).requires().sounds(BlockSoundGroup.STONE));
+            AbstractBlock.Settings.create().strength(0.5f).requires().sounds(BlockSoundGroup.STONE));
     public static final Block RED_DIAMOND_ORE = registerExperienceBlock("red_diamond_ore",
-            AbstractBlock.Settings.create().strength(4f).requires().sounds(BlockSoundGroup.AMETHYST_BLOCK));
+            AbstractBlock.Settings.create().strength(4f).requiresTool().requires().sounds(BlockSoundGroup.AMETHYST_BLOCK));
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(RobinsCasino.MOD_ID, name));
