@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "robins-casino:chip_20_block"
+          "name": "robins-casino:red_diamond_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "robins-casino:blocks/chip_20_block"
+  "random_sequence": "robins-casino:blocks/red_diamond_block"
 }

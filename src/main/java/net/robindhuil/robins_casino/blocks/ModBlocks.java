@@ -24,6 +24,8 @@ public class ModBlocks {
             AbstractBlock.Settings.create().strength(0.5f).requires().sounds(BlockSoundGroup.STONE));
     public static final Block RED_DIAMOND_ORE = registerExperienceBlock("red_diamond_ore",
             AbstractBlock.Settings.create().strength(4f).requiresTool().requires().sounds(BlockSoundGroup.AMETHYST_BLOCK));
+    public static final Block RED_DIAMOND_BLOCK = registerBlock("red_diamond_block",
+            AbstractBlock.Settings.create().strength(4f).requiresTool().requires().sounds(BlockSoundGroup.STONE));
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(RobinsCasino.MOD_ID, name));
