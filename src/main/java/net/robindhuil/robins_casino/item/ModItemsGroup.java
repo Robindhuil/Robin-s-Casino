@@ -17,10 +17,24 @@ public class ModItemsGroup {
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.CHIP10);
                 entries.add(ModItems.CHIP20);
+                entries.add(ModItems.CARD_2_HEART);
+                entries.add(ModItems.CARD_3_HEART);
+                entries.add(ModItems.CARD_4_HEART);
+                entries.add(ModItems.CARD_5_HEART);
+                entries.add(ModItems.CARD_6_HEART);
+                entries.add(ModItems.CARD_7_HEART);
+                entries.add(ModItems.CARD_8_HEART);
+                entries.add(ModItems.CARD_9_HEART);
+                entries.add(ModItems.CARD_10_HEART);
+                entries.add(ModItems.CARD_J_HEART);
+                entries.add(ModItems.CARD_Q_HEART);
+                entries.add(ModItems.CARD_K_HEART);
+                entries.add(ModItems.CARD_A_HEART);
                 entries.add(ModItems.RED_DIAMOND);
                 entries.add(ModBlocks.CHIP_10_BLOCK);
                 entries.add(ModBlocks.CHIP_20_BLOCK);
                 entries.add(ModBlocks.RED_DIAMOND_ORE);
+                entries.add(ModBlocks.RED_DIAMOND_BLOCK);
             }).build());
 
 
