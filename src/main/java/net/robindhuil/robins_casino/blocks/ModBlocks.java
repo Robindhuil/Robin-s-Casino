@@ -23,7 +23,8 @@ public class ModBlocks {
     public static final Block CHIP_20_BLOCK = registerBlock("chip_20_block",
             AbstractBlock.Settings.create().strength(0.5f).requires().sounds(BlockSoundGroup.STONE));
     public static final Block RED_DIAMOND_ORE = registerExperienceBlock("red_diamond_ore",
-            AbstractBlock.Settings.create().strength(4f).requiresTool().requires().sounds(BlockSoundGroup.AMETHYST_BLOCK));
+            AbstractBlock.Settings.create().strength(4f).requiresTool().requires().sounds(BlockSoundGroup.AMETHYST_BLOCK),
+            2, 5);
     public static final Block RED_DIAMOND_BLOCK = registerBlock("red_diamond_block",
             AbstractBlock.Settings.create().strength(4f).requiresTool().requires().sounds(BlockSoundGroup.STONE));
 
@@ -34,9 +35,9 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, key, block);
     }
 
-    private static Block registerExperienceBlock(String name, AbstractBlock.Settings blockSettings) {
+    private static Block registerExperienceBlock(String name, AbstractBlock.Settings blockSettings, int minXp, int maxXp) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(RobinsCasino.MOD_ID, name));
-        Block block = new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), blockSettings.registryKey(key));
+        Block block = new ExperienceDroppingBlock(UniformIntProvider.create(minXp, maxXp), blockSettings.registryKey(key));
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, key, block);
     }
