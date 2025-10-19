@@ -17,6 +17,7 @@ public class ModItemsGroup {
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.CHIP10);
                 entries.add(ModItems.CHIP20);
+                entries.add(ModItems.WHISKEY_BOTTLE);
                 entries.add(ModItems.CARD_2_HEART);
                 entries.add(ModItems.CARD_3_HEART);
                 entries.add(ModItems.CARD_4_HEART);
