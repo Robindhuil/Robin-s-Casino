@@ -1,6 +1,8 @@
 package net.robindhuil.robins_casino.item;
 
+import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -8,10 +10,18 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.robindhuil.robins_casino.RobinsCasino;
+import static net.robindhuil.robins_casino.item.ModToolTips.registerToolTip;
+
 
 public class ModItems {
-
+    public static final Item WHISKEY_BOTTLE = registerItem(
+            "whiskey_bottle",
+            new Item.Settings()
+                    .rarity(Rarity.RARE)
+                    .food(ModFoodComponents.WHISKEY_BOTTLE, ModConsumableComponents.WHISKEY_BOTTLE)
+                    .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true));
     public static final Item CHIP10=registerItem("chip_10",new Item.Settings());
     public static final Item CHIP20=registerItem("chip_20",new Item.Settings());
     public static final Item RED_DIAMOND=registerItem("red_diamond",new Item.Settings());
@@ -48,6 +58,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, key, item);
     }
 
+
     public static void registerModItems() {
         RobinsCasino.LOGGER.info("Registering Mod items for" + RobinsCasino.MOD_ID);
 
@@ -55,5 +66,14 @@ public class ModItems {
             entries.add(CHIP10);
             entries.add(CHIP20);
         });
+
+        RobinsCasino.LOGGER.info("Registering Mod item tooltips for" + RobinsCasino.MOD_ID);
+        registerToolTips();
     }
+
+    public static void registerToolTips() {
+        registerToolTip(WHISKEY_BOTTLE, "tooltip.robins-casino.whiskey_bottle", "tooltip.robins-casino.whiskey_bottle.shift_down");
+    }
+
+
 }

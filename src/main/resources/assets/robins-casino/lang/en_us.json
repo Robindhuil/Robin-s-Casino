@@ -6,6 +6,8 @@
   "item.robins-casino.red_diamond_ore": "Red Diamond ore",
   "item.robins-casino.red_diamond": "Red Diamond",
   "item.robins-casino.red_diamond_block": "Block of Red Diamond",
+  "item.robins-casino.whiskey_bottle": "Whiskey Bottle",
+
 
 
 
@@ -15,6 +17,10 @@
   "block.robins-casino.red_diamond_block": "Block of Red Diamond",
 
 
-  "itemgroup.robins_casino.robins_casino_group": "Robins Casino Content"
+  "itemgroup.robins_casino.robins_casino_group": "Robins Casino Content",
+
+
+  "tooltip.robins-casino.whiskey_bottle": "Press §eshift§r to cheers!",
+  "tooltip.robins-casino.whiskey_bottle.shift_down": "§oGentleman drink§r"
 
 }
