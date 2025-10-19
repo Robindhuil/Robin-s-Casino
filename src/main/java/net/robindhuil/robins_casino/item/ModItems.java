@@ -28,7 +28,19 @@ public class ModItems {
     public static final Item CARD_Q_HEART =registerItem("card_q_heart",new Item.Settings());
     public static final Item CARD_K_HEART =registerItem("card_k_heart",new Item.Settings());
     public static final Item CARD_A_HEART =registerItem("card_a_heart",new Item.Settings());
-
+    public static final Item CARD_2_CLUB =registerItem("card_2_club",new Item.Settings());
+    public static final Item CARD_3_CLUB =registerItem("card_3_club",new Item.Settings());
+    public static final Item CARD_4_CLUB =registerItem("card_4_club",new Item.Settings());
+    public static final Item CARD_5_CLUB =registerItem("card_5_club",new Item.Settings());
+    public static final Item CARD_6_CLUB =registerItem("card_6_club",new Item.Settings());
+    public static final Item CARD_7_CLUB =registerItem("card_7_club",new Item.Settings());
+    public static final Item CARD_8_CLUB =registerItem("card_8_club",new Item.Settings());
+    public static final Item CARD_9_CLUB =registerItem("card_9_club",new Item.Settings());
+    public static final Item CARD_10_CLUB =registerItem("card_10_club",new Item.Settings());
+    public static final Item CARD_J_CLUB =registerItem("card_j_club",new Item.Settings());
+    public static final Item CARD_Q_CLUB =registerItem("card_q_club",new Item.Settings());
+    public static final Item CARD_K_CLUB =registerItem("card_k_club",new Item.Settings());
+    public static final Item CARD_A_CLUB =registerItem("card_a_club",new Item.Settings());
 
     private static Item registerItem(String name, Item.Settings itemSettings) {
         RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobinsCasino.MOD_ID, name));
