@@ -1,0 +1,13 @@
+// 1.21.9	-999999999-01-01T00:00:00	Robin's Casino/Mod recipe provider
+c67035032c70fac0ae0d0c5460d12ff7fab89a0e data/robins-casino/advancement/recipes/building_blocks/chip_10.json
+3f761fd8242b52f0135cbec7e90f05c75cfa2842 data/robins-casino/advancement/recipes/building_blocks/chip_20.json
+4d9796214741f4779b83b493fecd21ccc3d272f9 data/robins-casino/advancement/recipes/decorations/chip_10_block.json
+eeb47d278f35a94b71000a94be0d878173cd957e data/robins-casino/advancement/recipes/decorations/chip_20_block.json
+905c71377fe02ea5407e797fbee1a171784464e7 data/robins-casino/advancement/recipes/decorations/red_diamond_block.json
+269e2906bb2ed26f7463f7f71b99f4c3b4fd1a00 data/robins-casino/advancement/recipes/misc/red_diamond.json
+caea08150c3302d9ec5cfeee5ab8b6c8527b3e2d data/robins-casino/recipe/chip_10.json
+bae6498f0523eddd042db8e00be12f03837f1666 data/robins-casino/recipe/chip_10_block.json
+9b0e2ffe3bea019e3271681254003fa722fe278b data/robins-casino/recipe/chip_20.json
+8f611e54fec19b24ab69e9b6ab3cdfe4f6a5b6dc data/robins-casino/recipe/chip_20_block.json
+99adbf264cbf171c8b57e6b9d5b1f211072c885c data/robins-casino/recipe/red_diamond.json
+cc88c56e35f44b570d02d696aaf0e6b2c1e7629f data/robins-casino/recipe/red_diamond_block.json

@@ -18,6 +18,16 @@ public class ModItemsGroup {
                 entries.add(ModItems.CHIP10);
                 entries.add(ModItems.CHIP20);
                 entries.add(ModItems.WHISKEY_BOTTLE);
+                entries.add(ModItems.RED_DIAMOND);
+                entries.add(ModBlocks.CHIP_10_BLOCK);
+                entries.add(ModBlocks.CHIP_20_BLOCK);
+                entries.add(ModBlocks.RED_DIAMOND_ORE);
+                entries.add(ModBlocks.RED_DIAMOND_BLOCK);
+            }).build());
+    public static final ItemGroup ROBINS_CASINO_CARDS = Registry.register(Registries.ITEM_GROUP, Identifier.of(RobinsCasino.MOD_ID,
+            "robins_casino_cards"), FabricItemGroup.builder().icon(() ->new ItemStack(ModItems.CARD_A_HEART))
+            .displayName(Text.translatable("itemgroup.robins_casino.robins_casino_cards"))
+            .entries((displayContext, entries) -> {
                 entries.add(ModItems.CARD_2_HEART);
                 entries.add(ModItems.CARD_3_HEART);
                 entries.add(ModItems.CARD_4_HEART);
@@ -31,6 +41,7 @@ public class ModItemsGroup {
                 entries.add(ModItems.CARD_Q_HEART);
                 entries.add(ModItems.CARD_K_HEART);
                 entries.add(ModItems.CARD_A_HEART);
+
                 entries.add(ModItems.CARD_2_CLUB);
                 entries.add(ModItems.CARD_3_CLUB);
                 entries.add(ModItems.CARD_4_CLUB);
@@ -44,13 +55,35 @@ public class ModItemsGroup {
                 entries.add(ModItems.CARD_Q_CLUB);
                 entries.add(ModItems.CARD_K_CLUB);
                 entries.add(ModItems.CARD_A_CLUB);
-                entries.add(ModItems.RED_DIAMOND);
-                entries.add(ModBlocks.CHIP_10_BLOCK);
-                entries.add(ModBlocks.CHIP_20_BLOCK);
-                entries.add(ModBlocks.RED_DIAMOND_ORE);
-                entries.add(ModBlocks.RED_DIAMOND_BLOCK);
-            }).build());
 
+                entries.add(ModItems.CARD_2_DIAMOND);
+                entries.add(ModItems.CARD_3_DIAMOND);
+                entries.add(ModItems.CARD_4_DIAMOND);
+                entries.add(ModItems.CARD_5_DIAMOND);
+                entries.add(ModItems.CARD_6_DIAMOND);
+                entries.add(ModItems.CARD_7_DIAMOND);
+                entries.add(ModItems.CARD_8_DIAMOND);
+                entries.add(ModItems.CARD_9_DIAMOND);
+                entries.add(ModItems.CARD_10_DIAMOND);
+                entries.add(ModItems.CARD_J_DIAMOND);
+                entries.add(ModItems.CARD_Q_DIAMOND);
+                entries.add(ModItems.CARD_K_DIAMOND);
+                entries.add(ModItems.CARD_A_DIAMOND);
+
+                entries.add(ModItems.CARD_2_SPADE);
+                entries.add(ModItems.CARD_3_SPADE);
+                entries.add(ModItems.CARD_4_SPADE);
+                entries.add(ModItems.CARD_5_SPADE);
+                entries.add(ModItems.CARD_6_SPADE);
+                entries.add(ModItems.CARD_7_SPADE);
+                entries.add(ModItems.CARD_8_SPADE);
+                entries.add(ModItems.CARD_9_SPADE);
+                entries.add(ModItems.CARD_10_SPADE);
+                entries.add(ModItems.CARD_J_SPADE);
+                entries.add(ModItems.CARD_Q_SPADE);
+                entries.add(ModItems.CARD_K_SPADE);
+                entries.add(ModItems.CARD_A_SPADE);
+            }).build());
 
     public static void registerItemGroups() {
         RobinsCasino.LOGGER.info("Registering Item Groups for " + RobinsCasino.MOD_ID);

@@ -51,6 +51,35 @@ public class ModItems {
     public static final Item CARD_Q_CLUB =registerItem("card_q_club",new Item.Settings());
     public static final Item CARD_K_CLUB =registerItem("card_k_club",new Item.Settings());
     public static final Item CARD_A_CLUB =registerItem("card_a_club",new Item.Settings());
+    public static final Item CARD_2_DIAMOND =registerItem("card_2_diamond",new Item.Settings());
+    public static final Item CARD_3_DIAMOND =registerItem("card_3_diamond",new Item.Settings());
+    public static final Item CARD_4_DIAMOND =registerItem("card_4_diamond",new Item.Settings());
+    public static final Item CARD_5_DIAMOND =registerItem("card_5_diamond",new Item.Settings());
+    public static final Item CARD_6_DIAMOND =registerItem("card_6_diamond",new Item.Settings());
+    public static final Item CARD_7_DIAMOND =registerItem("card_7_diamond",new Item.Settings());
+    public static final Item CARD_8_DIAMOND =registerItem("card_8_diamond",new Item.Settings());
+    public static final Item CARD_9_DIAMOND =registerItem("card_9_diamond",new Item.Settings());
+    public static final Item CARD_10_DIAMOND =registerItem("card_10_diamond",new Item.Settings());
+    public static final Item CARD_J_DIAMOND =registerItem("card_j_diamond",new Item.Settings());
+    public static final Item CARD_Q_DIAMOND =registerItem("card_q_diamond",new Item.Settings());
+    public static final Item CARD_K_DIAMOND =registerItem("card_k_diamond",new Item.Settings());
+    public static final Item CARD_A_DIAMOND =registerItem("card_a_diamond",new Item.Settings());
+    public static final Item CARD_2_SPADE =registerItem("card_2_spade",new Item.Settings());
+    public static final Item CARD_3_SPADE =registerItem("card_3_spade",new Item.Settings());
+    public static final Item CARD_4_SPADE =registerItem("card_4_spade",new Item.Settings());
+    public static final Item CARD_5_SPADE =registerItem("card_5_spade",new Item.Settings());
+    public static final Item CARD_6_SPADE =registerItem("card_6_spade",new Item.Settings());
+    public static final Item CARD_7_SPADE =registerItem("card_7_spade",new Item.Settings());
+    public static final Item CARD_8_SPADE =registerItem("card_8_spade",new Item.Settings());
+    public static final Item CARD_9_SPADE =registerItem("card_9_spade",new Item.Settings());
+    public static final Item CARD_10_SPADE =registerItem("card_10_spade",new Item.Settings());
+    public static final Item CARD_J_SPADE =registerItem("card_j_spade",new Item.Settings());
+    public static final Item CARD_Q_SPADE =registerItem("card_q_spade",new Item.Settings());
+    public static final Item CARD_K_SPADE =registerItem("card_k_spade",new Item.Settings());
+    public static final Item CARD_A_SPADE =registerItem("card_a_spade",new Item.Settings());
+
+
+
 
     private static Item registerItem(String name, Item.Settings itemSettings) {
         RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobinsCasino.MOD_ID, name));
