@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0" : "robins-casino:item/card_k_heart"
-  }
-}

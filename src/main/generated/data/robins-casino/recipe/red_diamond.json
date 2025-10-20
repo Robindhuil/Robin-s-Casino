@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "robins-casino:red_diamond_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "robins-casino:red_diamond"
+  }
+}
